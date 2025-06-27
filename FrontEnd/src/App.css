@@ -1,0 +1,128 @@
+/* Estilização geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0146ad;
+}
+
+/* Container principal */
+.container {
+text-align: center;
+
+}
+
+/* Cabeçalho */
+.container-header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+  height: 8%;
+padding: 2%;
+  background-color: #0146ad;
+}
+
+.container-header h1 {
+  font-size: 24px;
+  color: #000000;
+}
+
+.container-header img {
+  max-width: 80px; /* Limita o tamanho da imagem */
+  width: 100%;      /* Faz com que a imagem se ajuste ao container */
+  margin: 0 auto;   /* Centraliza horizontalmente */
+  margin-top: 10px; /* Espaço acima da imagem */
+}
+
+
+/* Menu  */
+.container-menu {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+
+  background-color: #0146ad;
+
+
+ 
+}
+
+.container-menu .menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
+  background-color: #ffffff;
+  border: 2px solid #076aff;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 15px;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 20px;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333333;
+}
+
+input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4c00ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* Rodapé */
+.container-footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #0146ad;
+  color: #ffffff;
+  
+  width: 100%;
+  font-size: 14px;
+}
+
+.container-footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container-footer a:hover {
+  text-decoration: underline;
+}
